@@ -11,8 +11,7 @@ def barcode():
     g = int(input('Insert g:'))
 
     items = ["Apple", "Orange", "Banana", "Grape", "Watermelon", "Pineapple", "Durian"]
-
-    if   x == 3 and y == 2 and z == 1 and a == 0 and b == 4 and c == 5 and d == 6 and e == 7 and f == 8 and g == 9:
+    if x == 3 and y == 2 and z == 1 and a == 0 and b == 4 and c == 5 and d == 6 and e == 7 and f == 8 and g == 9:
         print('\n' + items[0] + ': Rp. 2500/kg')
     elif x == 2 and y == 3 and z == 0 and a == 1 and b == 5 and c == 4 and d == 7 and e == 6 and f == 9 and g == 8:
         print('\n' + items[1] + ': Rp. 1500/kg')
@@ -35,3 +34,4 @@ def barcode():
 ##Barcode for Watermeon    : 3451875364##
 ##Barcode for Pineapple    : 2561964455##
 ##Barcode for Durian       : 1671033546##
+
